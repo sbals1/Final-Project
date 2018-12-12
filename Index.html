@@ -1,34 +1,91 @@
+<!doctype html>
+<html>
 <head>
-  <title> Sara Balsewicz </title>
+<meta charset="UTF-8">
+<title>Nicholas Pollack Portfolio</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
-<ul>
-  <li><a href="default.asp">Education</a></li>
-  <li><a href="news.asp">Resume</a></li>
-  <li><a href="contact.asp">Contact</a></li>
-</ul>
-ul {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
-}
-li {
-  display: inline;
-}
-
 <body>
+	
+	<h1><a href="index.html">Nicholas Pollack</a></h1>
+	
+<ul>
+  <li><a href="bio.html">Information</a></li>
+  <li><a href="contact.html">Contact</a></li>
+  <li class="dropdown">
+    <a href="javascript:void(0)" class="dropbtn">Portfolio</a>
+    <div class="dropdown-content">
+      <a href="1.html">1</a>
+      <a href="2.html">2</a>
+      <a href="3.html">3</a>
+    </div>
+  </li>
+</ul>
+	
 
-<h1>My Life of a Transfer Student </h1>
-<p> I transfered to University of New Haven from Northwestern Connecticut Community College in Winsted, Connecticut. I graduated with a associate degree in Criminal Justice.At that school i was part of a program called Team success Scholars which shaped me into the young perfessional i am today. I gained finaincial assistance which allowed me to get internships, gas money to get to and from school, and other tools which would help me after my time in the program. This program gave me not just money, but a family. </p>
+<!-- Load an icon library to show a hamburger menu (bars) on small screens -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
-<h2>HTML Image</h2>
+<!-- Top Navigation Menu -->
+<div class="topnav">
+  <a href="#home" class="active"></a>
+  <!-- Navigation links (hidden by default) -->
+  <div id="myLinks">
+    <a href="contact.html">Contact</a>
+    <a href="bio.html">Information</a>
+	<a href="1.html">Portfolio</a>
+  </div>
+  <!-- "Hamburger menu" / "Bar icon" to toggle the navigation links -->
+  <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+	
+	
+	
 
-<img src="unh.jpg" alt="unh">
-
-<h1> Fun Stuff </h1>
-
-<p> When I am not doing school work i enjoy watching crime shows such as Blue Bloods,or SVU special Victims Unit. I enjoy going on hikes in my hometown.I enjoy going out to the bar with my friends back home or at school. Along with quality family time when time allows. </p>
-
-
+<pre>
+   Nicholas Pollack is currently an Adjunct Professor in the Department of Art and Design at University of New Haven.
+   
+   <u>Curriculum Vitae</u>
+   
+   <u>Education</u>
+   MFA in Photography, Hartford Art School, West Hartford, CT, 2015
+   BA in Photography and Literature, Sarah Lawrence College, Bronxville, NY, 2010
+   
+   <u>Partial Publication/Client List</u>
+   (includes fine art press and comissions) 
+   aCurator, Archive Collective Magazine, Art Narratives, BKN, C41 Magazine, Darwin Magazine,
+   Daylight, Feature Shoot, The Huffington Post, Juxtapoz, Light Leaked, Mossless, Narratively,
+   Oranbeg Press, Phases Magazine, Positive Magazine, Pample-mousse, seya., TRIP, VICE 
+</pre>
+			
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	<script>
+function myFunction() {
+  var x = document.getElementById("myLinks");
+  if (x.style.display === "block") {
+    x.style.display = "none";
+  } else {
+    x.style.display = "block";
+  }
+}
+		
+		
+		
+		
+		
+</script>
 </body>
 </html>
